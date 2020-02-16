@@ -1,0 +1,14 @@
+loop
+
+while true do
+
+unless x == -1 do
+
+do puts "hi" until x==4
+
+do
+
+case x
+
+when 2
+hi
