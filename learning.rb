@@ -1,6 +1,8 @@
-require 'pry-nav'
-require 'active_record'
-require 'sqlite3'
+require 'sinatra'
+require 'rack'
 
-ActiveRecord::Base.establish_connection(:adapter => "sqlite3", :database => "db/students.sqlite")
-
+class Learning < Sinatra::BASE
+  get '/' do
+    "Hello, World!"
+  end
+end
